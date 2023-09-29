@@ -333,32 +333,31 @@ a {
     margin-bottom: 80px;
 }
 
+
 .how__chiziq {
+    width: 760px;
     height: 2px;
     background-color: #FDD6BA;
-    width: 760px;
-    display: block;
     margin-bottom: 500px;
     position: relative;
     margin-left: 30px;
 }
 
 .how__span {
-    border: 2px solid  #0E8784;
-    border-radius: 50%;
     width: 31px;
     height: 31px;
-    flex-shrink: 0;
+    border: 2px solid  #0E8784;
+    border-radius: 50%;
+    background-color: #fff;
     display: block;
-    margin: 0;
-    padding: 0;
     position: absolute;
     margin-top: -14px;
     margin-left: -27px;
 }
 
+
 .how__span:nth-child(2) {
-    margin-left: 364px;
+    margin-left: 349px;
 }
 
 .how__span:nth-child(3) {
@@ -366,6 +365,7 @@ a {
 }
 
 /* footer */
+
 
 .footer {
     background-color: #2C343E;
@@ -380,11 +380,23 @@ a {
     align-items: center;
 }
 
-.footer--link:hover {
+.footer__nav--link:hover {
     color: #fff;
     text-decoration: overline;
 }
 
+.navber {
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
 path:hover {
     fill: #FDD6BA;
+    cursor: auto;
 }
